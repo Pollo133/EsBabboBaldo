@@ -22,6 +22,7 @@ public class Moto extends Veicolo{
 		return cilindrata;
 	}
 	
+	@Override
 	public String toString(){
 		return "[VEICOLO]\nTarga: " + targa +
 		"\nAnno di produzione: " + anno +

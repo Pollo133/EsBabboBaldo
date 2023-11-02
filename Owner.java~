@@ -9,7 +9,8 @@ public class Owner{
 	
 	public Owner(){}
 	
-	public Owner(String nome, String cognome, ArrayList<Veicolo> veicoli){
+	public Owner(String nome, String cognome,
+			ArrayList<Veicolo> veicoli){
 		this.nome = nome;
 		this.cognome = cognome;
 		this.veicoli = veicoli;
@@ -41,16 +42,16 @@ public class Owner{
 	}
 	
 	public void scorriVeicoli(){
-		for(Veicolo veicolo: veicoli){
-			System.out.println(veicolo.toString);
+		for(Veicolo veicolo: this.veicoli){
+			System.out.println(veicolo.toString());
 		}
 	}
 	
+	@Override
 	public String toString(){
 		return "[OWNER] " +
 		"Nome: " + nome +
-		"Cognome: " + cognome +
-		"Veicoli: " + veicoli;
+		"Cognome: " + cognome;
 	}
 			
 }

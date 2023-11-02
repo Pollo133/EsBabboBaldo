@@ -16,14 +16,14 @@ public class GestoreVeicolo{
 		veicoliP2.add(new Moto("ZX330MY", 2013, "Kawasaki", p2, 125));
 		
 		
-		System.out.println("Informazioni sul primo proprietario: \n");
-		p1.toString();
-		System.out.println("Veicoli del primo proprietario: \n");
+		System.out.println("\nInformazioni sul primo proprietario: \n");
+		System.out.println(p1.toString());
+		System.out.println("\nVeicoli del primo proprietario: \n");
 		p1.scorriVeicoli();
 		
-		System.out.println("Informazioni sul secondo proprietario: \n");
-		p2.toString();
-		System.out.println("Veicoli del secondo proprietario: \n");
+		System.out.println("\nInformazioni sul secondo proprietario: \n");
+		System.out.println(p2.toString());
+		System.out.println("\nVeicoli del secondo proprietario: \n");
 		p2.scorriVeicoli();
 		
 		

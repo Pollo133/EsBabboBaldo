@@ -51,6 +51,7 @@ class Veicolo{
 		return owner;
 	}
 	
+	@Override
 	public String toString(){
 		return "[VEICOLO]\nTarga: " + targa +
 		"\nAnno di produzione: " + anno +

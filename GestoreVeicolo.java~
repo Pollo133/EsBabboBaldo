@@ -17,12 +17,12 @@ public class GestoreVeicolo{
 		
 		
 		System.out.println("Informazioni sul primo proprietario: \n");
-		p1.toString();
+		System.out.println(p1.toString());
 		System.out.println("Veicoli del primo proprietario: \n");
 		p1.scorriVeicoli();
 		
 		System.out.println("Informazioni sul secondo proprietario: \n");
-		p2.toString();
+		System.out.println(p2.toString());
 		System.out.println("Veicoli del secondo proprietario: \n");
 		p2.scorriVeicoli();
 		

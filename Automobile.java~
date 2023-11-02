@@ -22,11 +22,12 @@ public class Automobile extends Veicolo{
 		return posti;
 	}
 	
+	@override
 	public String toString(){
 		return "[VEICOLO]\nTarga: " + targa +
 		"\nAnno di produzione: " + anno +
 		"\nNome veicolo: " + nome +
-		"\nProprietario: " + own		
+		"\nProprietario: " + owner +		
 		"\nPosti: " + posti;
 	}
 }
